@@ -129,3 +129,87 @@ main {
 .info-description {
     font-size: 20px;
 }
+
+/* what i do style */
+.section-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.skills-container {
+    display: flex;
+
+}
+
+.skill {
+    text-align: center;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    margin: 10px;
+}
+
+.skill-title {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.skill-description {
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+    padding: 20px;
+}
+
+
+
+/* summary related aalll */
+.resume-title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: #181818;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.my-title {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.summary {
+    display: flex;
+    gap: 24px;
+}
+
+.summary-title {
+    font-size: 25px;
+    font-weight: 700;
+    color: #474747;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.summary-subtitle {
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+    margin-bottom: 20px;
+}
+
+.summary-description {
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+.summary-button {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
