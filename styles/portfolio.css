@@ -1,0 +1,131 @@
+* {
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* header and nevigetor  */
+.nav-title {
+    font-weight: 800px;
+    font-size: 45px;
+}
+
+.btn-primary {
+    height: 64px;
+    color: antiquewhite;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
+    border-radius: 5px;
+    background-color: orange;
+}
+
+.header {
+    background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
+nav li {
+    list-style: none;
+
+    margin-left: 50px;
+
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+
+.text-primary {
+    color: orange;
+}
+
+/* banner file  */
+.banner {
+    display: flex;
+    align-items: center;
+    margin: 0px 200px;
+}
+
+.banner-title {
+    font-size: 45px;
+    font-weight: 600;
+    color: #757575;
+}
+
+.banner-name {
+    font-size: 85px;
+    font-weight: 700;
+
+}
+
+.banner-para {
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+.contact {
+    height: 64px;
+    color: orange;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
+    border-radius: 5px;
+    margin-left: 30px;
+
+}
+
+/* main section  */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about section sytle */
+.about {
+    margin-top: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    text-align: center;
+    padding: 130px 150px;
+}
+
+.section-title {
+
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+.section-des {
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.about-info-container {
+    display: flex;
+    margin: 50px;
+    justify-content: space-around;
+}
+
+.info-title {
+    color: #757575;
+    font-size: 18px;
+}
+
+.info-description {
+    font-size: 20px;
+}
