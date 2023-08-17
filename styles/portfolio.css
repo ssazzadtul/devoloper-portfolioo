@@ -213,3 +213,24 @@ main {
     margin-top: 50px;
     margin-bottom: 50px;
 }
+
+
+/* contract footer  */
+.contract {
+    display: flex;
+    gap: 100px;
+
+    background-color: #FFF8F3;
+    padding: 130px;
+}
+
+.contract-title.contact {
+    text-align: left;
+}
+
+.contract input,
+textarea {
+    margin: 24px;
+    height: 100%;
+    padding: 18px 30px;
+}
